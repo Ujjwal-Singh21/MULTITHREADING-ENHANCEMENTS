@@ -25,6 +25,7 @@ class Display {
             } catch (InterruptedException e) {
                 System.out.println(e.getMessage());
             }
+
             System.out.println(name);
         }
 

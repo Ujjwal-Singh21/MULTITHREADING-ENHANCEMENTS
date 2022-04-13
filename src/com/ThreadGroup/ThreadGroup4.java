@@ -31,15 +31,15 @@ public class ThreadGroup4 {
         t1.start();
         t2.start();
 
-        System.out.println(pg.activeCount());
-        System.out.println(pg.activeGroupCount());
-        pg.list();
+        System.out.println(pg.activeCount()); //2
+        System.out.println(pg.activeGroupCount()); //1
+        pg.list(); //details
 
         Thread.sleep(10000);
 
-        System.out.println(pg.activeCount());
-        System.out.println(pg.activeGroupCount());
-        pg.list();
+        System.out.println(pg.activeCount()); //0
+        System.out.println(pg.activeGroupCount()); //1
+        pg.list(); //updated details
 
     }
 }

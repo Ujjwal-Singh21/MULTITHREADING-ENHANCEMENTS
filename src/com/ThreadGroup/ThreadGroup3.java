@@ -20,7 +20,7 @@ public class ThreadGroup3 {
 
         //adding another thread with its default priority 5,
         //which will gets changed to 3 as per newly set MaxPriority of ThreadGroup
-        Thread t3 = new Thread(g1, "Third Group");
+        Thread t3 = new Thread(g1, "Third Thread");
 
         System.out.println(t1.getPriority()); // 5 -> which was default
         System.out.println(t2.getPriority()); // 5 -> which was default

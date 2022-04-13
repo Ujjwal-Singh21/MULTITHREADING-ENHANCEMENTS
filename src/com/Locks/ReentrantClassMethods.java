@@ -3,6 +3,7 @@ import java.util.concurrent.locks.ReentrantLock;
 
 //some methods of Reentrant(C) which is child implementation class of LOCK(I).
 public class ReentrantClassMethods {
+
     public static void main(String[] args) {
 
         ReentrantLock l = new ReentrantLock();
